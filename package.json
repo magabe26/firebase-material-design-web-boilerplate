@@ -66,6 +66,7 @@
     "@material/top-app-bar": "^7.0.0",
     "@material/typography": "^7.0.0",
     "firebase": "^7.23.0",
+    "jquery": "^3.5.1",
     "npm-watch": "^0.7.0"
   }
 }
