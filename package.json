@@ -66,6 +66,6 @@
     "@material/textfield": "^7.0.0",
     "@material/top-app-bar": "^7.0.0",
     "@material/typography": "^7.0.0",
-    "jquery": "^3.5.1",
+    "jquery": "^3.5.1"
   }
 }
