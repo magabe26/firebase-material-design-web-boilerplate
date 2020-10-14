@@ -37,7 +37,8 @@
     "dart-sass": "^1.25.0",
     "sass-loader": "^10.0.3",
     "webpack": "^5.1.0",
-    "webpack-cli": "^4.0.0"
+    "webpack-cli": "^4.0.0",
+    "npm-watch": "^0.7.0"
   },
   "dependencies": {
     "@material/button": "^7.0.0",
@@ -66,6 +67,5 @@
     "@material/top-app-bar": "^7.0.0",
     "@material/typography": "^7.0.0",
     "jquery": "^3.5.1",
-    "npm-watch": "^0.7.0"
   }
 }
