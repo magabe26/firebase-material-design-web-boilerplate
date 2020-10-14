@@ -1,5 +1,5 @@
+const $ = require('jquery');
 import {MDCRipple} from '@material/ripple';
-const $ = require( "jquery" );
 
 const btn = document.querySelector('#learn');
 const buttonRipple = new MDCRipple(btn);
