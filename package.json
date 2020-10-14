@@ -1,0 +1,71 @@
+{
+  "name": "mkopo_bila_riba",
+  "version": "1.0.0",
+  "description": "A Platform for getting loans without interest",
+  "private": true,
+  "watch": {
+    "build-js": {
+      "patterns": [
+        "src/js"
+      ],
+      "extensions": "js",
+      "quiet": true,
+      "delay": 1000,
+      "runOnChangeOnly": false
+    },
+    "build-css": {
+      "patterns": [
+        "src/scss"
+      ],
+      "extensions": "scss",
+      "quiet": true,
+      "delay": 1000,
+      "runOnChangeOnly": false
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-js": "npx webpack --config webpack.config.js",
+    "build-css": "dart-sass --load-path=node_modules src/scss:dist/css",
+    "build": "concurrently \"npm run build-css\" \"npm run build-js\"",
+    "watch": "npm-watch"
+  },
+  "author": "Edwin Magabe",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "dart-sass": "^1.25.0",
+    "sass-loader": "^10.0.3",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "dependencies": {
+    "@material/button": "^7.0.0",
+    "@material/card": "^7.0.0",
+    "@material/checkbox": "^7.0.0",
+    "@material/chips": "^7.0.0",
+    "@material/data-table": "^7.0.0",
+    "@material/dialog": "^7.0.0",
+    "@material/drawer": "^7.0.0",
+    "@material/elevation": "^7.0.0",
+    "@material/fab": "^7.0.0",
+    "@material/icon-button": "^7.0.0",
+    "@material/image-list": "^7.0.0",
+    "@material/layout-grid": "^7.0.0",
+    "@material/linear-progress": "^7.0.0",
+    "@material/list": "^7.0.0",
+    "@material/menu": "^7.0.0",
+    "@material/radio": "^7.0.0",
+    "@material/ripple": "^7.0.0",
+    "@material/select": "^7.0.0",
+    "@material/slider": "^7.0.0",
+    "@material/snackbar": "^7.0.0",
+    "@material/switch": "^7.0.0",
+    "@material/tab-bar": "^7.0.0",
+    "@material/textfield": "^7.0.0",
+    "@material/top-app-bar": "^7.0.0",
+    "@material/typography": "^7.0.0",
+    "firebase": "^7.23.0",
+    "npm-watch": "^0.7.0"
+  }
+}
